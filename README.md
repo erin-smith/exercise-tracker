@@ -42,7 +42,13 @@ To start up Mongo, run the following commands(s):
 In a separate terminal tab, run the following command(s):  
 `npm run seeds`
 
-## Usage 
+## Usage   
+  
+  To invoke the app, run the following commands(s):    
+    `npm start`  
+
+ Then open the browser window on http://localhost:3000.  
+   
   A user can track their daily workouts, stats, and reach their fitness goals by logging their exercises.  They can see duration and distance and each exercise completed.
 
 ## License 
