@@ -179,9 +179,9 @@ async function handleFormSubmit(event) {
   }
   console.log("sending workout data: " + JSON.stringify(workoutData))
   await API.addExercise(workoutData);
-  // clearInputs();
+  //clearInputs();
   toast.classList.add("success");
-  window.location.href= "/";
+window.location.href= "/";
 }
 
 function handleToastAnimationEnd() {

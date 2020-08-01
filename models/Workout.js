@@ -35,14 +35,14 @@ const ExerciseSchema = new Schema ({
           exercises: [ExerciseSchema]
           });
 
-      WorkoutSchema.methods.setTotalDuration = function() {
-          let duration = 0;
-          this.exercises.forEach(exercise => {
-            duration += exercise.duration;
-          });
-          this.totalDuration = duration;
-          console.log(this.totalDuration);
-        }
+      //WorkoutSchema.methods.setTotalDuration = function() {
+         // let duration = 0;
+         // this.exercises.forEach(exercise => {
+         ///   duration += exercise.duration;
+         // });
+         // this.totalDuration = duration;
+          //console.log(this.totalDuration);
+       // }
 
     const Workout = mongoose.model("Workout", WorkoutSchema);
 

@@ -31,6 +31,7 @@ a:active,
 a:visited {
   text-decoration: none;
   color: inherit;
+  margin-right: 30px;
 }
 
 header {
@@ -108,7 +109,9 @@ input {
 
 form .workout-type,
 form .cardio-form div,
-form .resistance-form div {
+form .resistance-form div,
+form .balance-form div,
+form .flexibility-form div {
   display: flex;
   margin-top: 30px;
 }
@@ -185,7 +188,9 @@ button {
 
 .workout-type,
 form .cardio-form div,
-form .resistance-form div {
+form .resistance-form div,
+form .balance-form div,
+form .flexibility-form div {
   display: flex;
   margin-top: 30px;
 }
@@ -246,7 +251,9 @@ button {
 }
 .workout-type,
 form .cardio-form div,
-form .resistance-form div {
+form .resistance-form div,
+form .balance-form div,
+form .flexibility-form div {
   display: flex;
   margin-top: 30px;
 }
@@ -421,7 +428,9 @@ form > button {
 
 .workout-type,
 .cardio-form,
-.resistance-form {
+.resistance-form 
+.flexibility-form
+.balance-form {
   padding: 10px;
 }
 

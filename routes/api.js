@@ -11,9 +11,9 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
 router.get("/api/workouts", (req, res) => {
   db.Workout.find({})
     .populate("exercises")
-    .then((dbWorkout) => {
-      dbWorkout.forEach((workout) => workout.setTotalDuration());
-      res.json(workouts);
+    .then((lastWorkout) => {
+   //  lastWorkout.forEach((workout) => workout.setTotalDuration());
+      res.json(lastWorkout);
     })
     .catch((err) => {
       res.json(err);
@@ -40,6 +40,7 @@ router.post("/api/workouts", ({ body }, res) => {
       res.json(err);
     });
 });
+
 
 //add new exercises to current workout
 router.put("/api/workouts/:id", (req, res) => {

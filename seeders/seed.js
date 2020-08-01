@@ -8,7 +8,7 @@ mongoose.connect(process.env.MONGODB_URI ||"mongodb://localhost/workout", {
 
 let workoutSeed = [
   {
-    day: new Date().setDate(new Date().getDate()-10),
+    day: new Date().setDate(new Date().getDate()-12),
     exercises: [
       {
         type: "resistance",
@@ -21,7 +21,7 @@ let workoutSeed = [
     ]
   },
   {
-    day: new Date().setDate(new Date().getDate()-9),
+    day: new Date().setDate(new Date().getDate()-11),
     exercises: [
       {
         type: "resistance",
@@ -34,7 +34,7 @@ let workoutSeed = [
     ]
   },
   {
-    day: new Date().setDate(new Date().getDate()-8),
+    day: new Date().setDate(new Date().getDate()-10),
     exercises: [
       {
         type: "resistance",
@@ -47,13 +47,33 @@ let workoutSeed = [
     ]
   },
   {
-    day: new Date().setDate(new Date().getDate()-7),
+    day: new Date().setDate(new Date().getDate()-9),
     exercises: [
       {
         type: "cardio",
         name: "Running",
         duration: 25,
         distance: 4
+      }
+    ]
+  },
+  {
+    day: new Date().setDate(new Date().getDate()-8),
+    exercises: [
+      {
+        type: "flexibility",
+        name: "Yoga",
+        duration: 60
+      }
+    ]
+  },
+  {
+    day: new Date().setDate(new Date().getDate()-7),
+    exercises: [
+      {
+        type: "balance",
+        name: "Tai Chi",
+        duration: 90
       }
     ]
   },
