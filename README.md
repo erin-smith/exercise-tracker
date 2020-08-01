@@ -46,11 +46,11 @@ In a separate terminal tab, run the following command(s):
 
 To invoke the application, run the following command(s):  
   `npm start`  
-  
+
 
 ## Usage   
   
-To use this app, no installation is necessary.  Just go to the following Link to project](https://aqueous-thicket-78682.herokuapp.com/):  
+To use this app, no installation is necessary.  Just go to the following [Link to project](https://aqueous-thicket-78682.herokuapp.com/):  
 
   https://aqueous-thicket-78682.herokuapp.com/  
    
