@@ -10,7 +10,7 @@ A Workout Tracker in which the user can view, create, add to, and track daily wo
 ## Description
   This is a fitness tracker app to add, update, and track exercises within each workout that the user engages in. They can add a new workout or update a current workout! The app utilizes a Mongo database with a Mongoose schema and handles routes and the server with Express.
 
-[Link to project](https://erin-smith.github.io/exercise-tracker)  
+[Link to project](https://aqueous-thicket-78682.herokuapp.com/)  
 
 [Link to Repo](https://github.com/erin-smith/exercise-tracker)    
     
@@ -32,6 +32,8 @@ A Workout Tracker in which the user can view, create, add to, and track daily wo
 
 Installation code:
    
+This app is deployed on Heroku and installation is not necessary, but if you are still interested:  
+  
 To install the program, run the following command(s):`npm install`    
 This will install the necessary dependencies listed in the package.json file.  You will also need to have MongoDB locally installed.   
 
@@ -40,14 +42,17 @@ To start up Mongo, run the following commands(s):
 
 
 In a separate terminal tab, run the following command(s):  
-`npm run seeds`
+`npm run seeds`  
+
+To invoke the application, run the following command(s):  
+  `npm start`  
+  
 
 ## Usage   
   
-  To invoke the app, run the following commands(s):    
-    `npm start`  
+To use this app, no installation is necessary.  Just go to the following Link to project](https://aqueous-thicket-78682.herokuapp.com/):  
 
- Then open the browser window on http://localhost:3000.  
+  https://aqueous-thicket-78682.herokuapp.com/  
    
   A user can track their daily workouts, stats, and reach their fitness goals by logging their exercises.  They can see duration and distance and each exercise completed.
 
