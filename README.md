@@ -56,7 +56,7 @@ To use this app, no installation is necessary.  Just go to the following [Link t
 
   https://aqueous-thicket-78682.herokuapp.com/  
    
-  A user can track their daily workouts, stats, and reach their fitness goals by logging their exercises.  They can see duration and distance and each exercise completed.
+  A user can track their daily workouts, stats, and reach their fitness goals by logging their exercises.  They can see duration and distance and each exercise completed.  ** In order to keep adding to the same workout, the user needs to click the "add workout" button, then enter and "add exercise"- Next hit the "Dashboard" link at the top of the page and click the Blue "continue workout" button to keep adding to the same workout for the day.
 
 ## License 
 [![ISClicense](https://img.shields.io/badge/license-ISC-blue.svg)](https://shields.io/)
