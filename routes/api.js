@@ -12,7 +12,6 @@ router.get("/api/workouts", (req, res) => {
   db.Workout.find({})
     .populate("exercises")
     .then((lastWorkout) => {
-   //  lastWorkout.forEach((workout) => workout.setTotalDuration());
       res.json(lastWorkout);
     })
     .catch((err) => {
