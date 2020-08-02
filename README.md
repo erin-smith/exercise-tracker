@@ -14,7 +14,9 @@ A Workout Tracker in which the user can view, create, add to, and track daily wo
 
 [Link to Repo](https://github.com/erin-smith/exercise-tracker)    
     
-![Screenshot](./public/dashboard.png)  
+![Screenshot](./public/dashboard.png)    
+  
+  ![Screenshot](./public/workout.png)  
 
 
 ## Table of Contents
